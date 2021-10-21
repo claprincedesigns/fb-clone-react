@@ -15,7 +15,7 @@ function Sidebar() {
     const [{user}, dispatch] = useStateValue();
     return (
         <div className="sidebar">
-            <SidebarRow title={user.displayName} src={user.photoUrl} />
+            <SidebarRow title={user.displayName} src={user.photoURL} />
             <SidebarRow title="COVID-19 Information Center" Icon={LocalHospitalIcon} />
             <SidebarRow title="Pages" Icon={EmojiFlagsIcon} />
             <SidebarRow title="Friends" Icon={PeopleIcon} />
